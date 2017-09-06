@@ -16,4 +16,6 @@
 
 + (instancetype)traitCollectionWithAttributes:(NSArray<id<TCAdaptiveAttribute>>*)attributes;
 
+- (BOOL)containsTraitsInAttribute:(id<TCAdaptiveAttribute>)attribute;
+
 @end

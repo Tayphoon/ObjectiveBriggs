@@ -21,8 +21,9 @@
 // SOFTWARE.
 
 #import <Foundation/Foundation.h>
-#import "PKProtocolExtension.h"
 #import <pthread.h>
+
+#import "PKProtocolExtension.h"
 
 typedef struct {
     Protocol *__unsafe_unretained protocol;

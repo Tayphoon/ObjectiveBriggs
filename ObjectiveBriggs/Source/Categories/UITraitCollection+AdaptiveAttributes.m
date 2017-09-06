@@ -7,6 +7,7 @@
 //
 
 #import "UITraitCollection+AdaptiveAttributes.h"
+#import "TCIdiomAttirbute.h"
 
 @implementation UITraitCollection (AdaptiveAttributes)
 
@@ -25,7 +26,11 @@
 }
 
 - (NSArray<id<TCAdaptiveAttribute>>*)adaptiveAttributes {
-    return nil;
+    NSMutableArray * adaptiveAttributes = [NSMutableArray array];
+    
+    [adaptiveAttributes addObject:[TCIdiomAttirbute attirbuteWithIdiom:(TCIdiom)self.userInterfaceIdiom]];
+        
+    return [adaptiveAttributes copy];
 }
 
 @end

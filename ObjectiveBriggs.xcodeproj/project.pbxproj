@@ -20,6 +20,18 @@
 		73BA524D1F608BC300B4881C /* TCAdaptiveInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BA524A1F608BC300B4881C /* TCAdaptiveInterface.h */; };
 		73BA52511F608C0900B4881C /* UITraitCollection+AdaptiveAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BA524F1F608C0800B4881C /* UITraitCollection+AdaptiveAttributes.h */; };
 		73BA52521F608C0900B4881C /* UITraitCollection+AdaptiveAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BA52501F608C0800B4881C /* UITraitCollection+AdaptiveAttributes.m */; };
+		73BA52581F6095C000B4881C /* TCIdiom.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BA52571F6095C000B4881C /* TCIdiom.h */; };
+		73BA52681F6097D900B4881C /* TCScale.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BA52671F6097D900B4881C /* TCScale.h */; };
+		73BA52731F60990900B4881C /* UITraitCollection+ScaleAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BA52711F60990900B4881C /* UITraitCollection+ScaleAttributes.h */; };
+		73BA52741F60990900B4881C /* UITraitCollection+ScaleAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BA52721F60990900B4881C /* UITraitCollection+ScaleAttributes.m */; };
+		73BA52761F60999500B4881C /* TCSizeClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BA52751F60999500B4881C /* TCSizeClass.h */; };
+		73BA52791F6099AC00B4881C /* UITraitCollection+SizeClassAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BA52771F6099AC00B4881C /* UITraitCollection+SizeClassAttributes.h */; };
+		73BA527A1F6099AC00B4881C /* UITraitCollection+SizeClassAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BA52781F6099AC00B4881C /* UITraitCollection+SizeClassAttributes.m */; };
+		73BA527C1F609AFA00B4881C /* TCForceTouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BA527B1F609AFA00B4881C /* TCForceTouch.h */; };
+		73BA527F1F609B0E00B4881C /* UITraitCollection+ForceTouchAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BA527D1F609B0E00B4881C /* UITraitCollection+ForceTouchAttributes.h */; };
+		73BA52801F609B0E00B4881C /* UITraitCollection+ForceTouchAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BA527E1F609B0E00B4881C /* UITraitCollection+ForceTouchAttributes.m */; };
+		73BA52871F609F7500B4881C /* TCIdiomAttirbute.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BA52851F609F7500B4881C /* TCIdiomAttirbute.h */; };
+		73BA52881F609F7500B4881C /* TCIdiomAttirbute.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BA52861F609F7500B4881C /* TCIdiomAttirbute.m */; };
 		73BD501E1F4B2B2E00BB8085 /* ObjectiveBriggs.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BD501C1F4B2B2E00BB8085 /* ObjectiveBriggs.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -37,6 +49,18 @@
 		73BA524A1F608BC300B4881C /* TCAdaptiveInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCAdaptiveInterface.h; sourceTree = "<group>"; };
 		73BA524F1F608C0800B4881C /* UITraitCollection+AdaptiveAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITraitCollection+AdaptiveAttributes.h"; sourceTree = "<group>"; };
 		73BA52501F608C0800B4881C /* UITraitCollection+AdaptiveAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITraitCollection+AdaptiveAttributes.m"; sourceTree = "<group>"; };
+		73BA52571F6095C000B4881C /* TCIdiom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCIdiom.h; sourceTree = "<group>"; };
+		73BA52671F6097D900B4881C /* TCScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCScale.h; sourceTree = "<group>"; };
+		73BA52711F60990900B4881C /* UITraitCollection+ScaleAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITraitCollection+ScaleAttributes.h"; sourceTree = "<group>"; };
+		73BA52721F60990900B4881C /* UITraitCollection+ScaleAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITraitCollection+ScaleAttributes.m"; sourceTree = "<group>"; };
+		73BA52751F60999500B4881C /* TCSizeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCSizeClass.h; sourceTree = "<group>"; };
+		73BA52771F6099AC00B4881C /* UITraitCollection+SizeClassAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITraitCollection+SizeClassAttributes.h"; sourceTree = "<group>"; };
+		73BA52781F6099AC00B4881C /* UITraitCollection+SizeClassAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITraitCollection+SizeClassAttributes.m"; sourceTree = "<group>"; };
+		73BA527B1F609AFA00B4881C /* TCForceTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCForceTouch.h; sourceTree = "<group>"; };
+		73BA527D1F609B0E00B4881C /* UITraitCollection+ForceTouchAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITraitCollection+ForceTouchAttributes.h"; sourceTree = "<group>"; };
+		73BA527E1F609B0E00B4881C /* UITraitCollection+ForceTouchAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITraitCollection+ForceTouchAttributes.m"; sourceTree = "<group>"; };
+		73BA52851F609F7500B4881C /* TCIdiomAttirbute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCIdiomAttirbute.h; sourceTree = "<group>"; };
+		73BA52861F609F7500B4881C /* TCIdiomAttirbute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCIdiomAttirbute.m; sourceTree = "<group>"; };
 		73BD50191F4B2B2E00BB8085 /* ObjectiveBriggs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjectiveBriggs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73BD501C1F4B2B2E00BB8085 /* ObjectiveBriggs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveBriggs.h; sourceTree = "<group>"; };
 		73BD501D1F4B2B2E00BB8085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,14 +93,25 @@
 		73BA52471F608B0200B4881C /* AdaptiveAttributes */ = {
 			isa = PBXGroup;
 			children = (
+				73BA52571F6095C000B4881C /* TCIdiom.h */,
+				73BA52851F609F7500B4881C /* TCIdiomAttirbute.h */,
+				73BA52861F609F7500B4881C /* TCIdiomAttirbute.m */,
+				73BA52671F6097D900B4881C /* TCScale.h */,
+				73BA52751F60999500B4881C /* TCSizeClass.h */,
+				73BA527B1F609AFA00B4881C /* TCForceTouch.h */,
 			);
-			name = AdaptiveAttributes;
-			path = Source/AdaptiveAttributes;
+			path = AdaptiveAttributes;
 			sourceTree = "<group>";
 		};
 		73BA524E1F608BDB00B4881C /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				73BA52711F60990900B4881C /* UITraitCollection+ScaleAttributes.h */,
+				73BA52721F60990900B4881C /* UITraitCollection+ScaleAttributes.m */,
+				73BA52771F6099AC00B4881C /* UITraitCollection+SizeClassAttributes.h */,
+				73BA52781F6099AC00B4881C /* UITraitCollection+SizeClassAttributes.m */,
+				73BA527D1F609B0E00B4881C /* UITraitCollection+ForceTouchAttributes.h */,
+				73BA527E1F609B0E00B4881C /* UITraitCollection+ForceTouchAttributes.m */,
 				73BA524F1F608C0800B4881C /* UITraitCollection+AdaptiveAttributes.h */,
 				73BA52501F608C0800B4881C /* UITraitCollection+AdaptiveAttributes.m */,
 			);
@@ -141,14 +176,22 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73BA527F1F609B0E00B4881C /* UITraitCollection+ForceTouchAttributes.h in Headers */,
+				73BA52871F609F7500B4881C /* TCIdiomAttirbute.h in Headers */,
 				73BA524D1F608BC300B4881C /* TCAdaptiveInterface.h in Headers */,
 				73BA52351F607E1C00B4881C /* PKProtocolExtension.h in Headers */,
+				73BA52731F60990900B4881C /* UITraitCollection+ScaleAttributes.h in Headers */,
+				73BA52581F6095C000B4881C /* TCIdiom.h in Headers */,
+				73BA52761F60999500B4881C /* TCSizeClass.h in Headers */,
 				73BA52511F608C0900B4881C /* UITraitCollection+AdaptiveAttributes.h in Headers */,
 				73BA524C1F608BC300B4881C /* TCAdaptiveElement.h in Headers */,
 				73BA52451F60894800B4881C /* TCAdaptiveViewContainer.h in Headers */,
 				73BA523B1F60847A00B4881C /* TCAdaptiveBehavior.h in Headers */,
 				73BD501E1F4B2B2E00BB8085 /* ObjectiveBriggs.h in Headers */,
 				73BA52411F60881200B4881C /* TCAdaptiveConstraintContainer.h in Headers */,
+				73BA52681F6097D900B4881C /* TCScale.h in Headers */,
+				73BA527C1F609AFA00B4881C /* TCForceTouch.h in Headers */,
+				73BA52791F6099AC00B4881C /* UITraitCollection+SizeClassAttributes.h in Headers */,
 				73BA524B1F608BC300B4881C /* TCAdaptiveAttribute.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,11 +266,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73BA52801F609B0E00B4881C /* UITraitCollection+ForceTouchAttributes.m in Sources */,
 				73BA52421F60881200B4881C /* TCAdaptiveConstraintContainer.m in Sources */,
 				73BA52361F607E1C00B4881C /* PKProtocolExtension.m in Sources */,
 				73BA52521F608C0900B4881C /* UITraitCollection+AdaptiveAttributes.m in Sources */,
+				73BA527A1F6099AC00B4881C /* UITraitCollection+SizeClassAttributes.m in Sources */,
 				73BA52461F60894800B4881C /* TCAdaptiveViewContainer.m in Sources */,
+				73BA52881F609F7500B4881C /* TCIdiomAttirbute.m in Sources */,
 				73BA523C1F60847A00B4881C /* TCAdaptiveBehavior.m in Sources */,
+				73BA52741F60990900B4881C /* UITraitCollection+ScaleAttributes.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
