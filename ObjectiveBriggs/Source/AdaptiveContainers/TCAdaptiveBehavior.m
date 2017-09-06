@@ -1,18 +1,18 @@
 //
-//  AdaptiveBehavior.m
+//  TCAdaptiveBehavior.m
 //  ObjectiveBriggs
 //
 //  Created by Tayphoon on 06/09/2017.
 //  Copyright © 2017 Tayphoon. All rights reserved.
 //
 
-#import "AdaptiveBehavior.h"
+#import "TCAdaptiveBehavior.h"
 
-@implementation AdaptiveBehavior
+@implementation TCAdaptiveBehavior
 
 + (instancetype)behaviorWithTraitCollection:(UITraitCollection*)traitCollection
-                                   behavior:(Behavior)behavior
-                            counterBehavior:(Behavior)counterBehavior {
+                                   behavior:(TCBehavior)behavior
+                            counterBehavior:(TCBehavior)counterBehavior {
     return [[self alloc] initWithTraitCollection:traitCollection
                                         behavior:behavior
                                  counterBehavior:counterBehavior];
@@ -26,8 +26,8 @@
 }
 
 - (instancetype)initWithTraitCollection:(UITraitCollection*)traitCollection
-                               behavior:(Behavior)behavior
-                        counterBehavior:(Behavior)counterBehavior {
+                               behavior:(TCBehavior)behavior
+                        counterBehavior:(TCBehavior)counterBehavior {
     self = [super init];
     
     if (self) {

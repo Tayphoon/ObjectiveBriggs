@@ -1,14 +1,14 @@
 //
-//  AdaptiveViewContainer.h
+//  TCAdaptiveViewContainer.h
 //  ObjectiveBriggs
 //
 //  Created by Tayphoon on 06/09/2017.
 //  Copyright © 2017 Tayphoon. All rights reserved.
 //
 
-#import "AdaptiveElement.h"
+#import "TCAdaptiveElement.h"
 
-@interface AdaptiveViewContainer : NSObject<AdaptiveElement>
+@interface TCAdaptiveViewContainer : NSObject<TCAdaptiveElement>
 
 @property (nonatomic, readonly) UITraitCollection * traitCollection;
 @property (nonatomic, readonly) UIView * parentView;

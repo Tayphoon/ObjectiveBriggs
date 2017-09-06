@@ -1,5 +1,5 @@
 //
-//  AdaptiveAttribute.h
+//  TCAdaptiveAttribute.h
 //  ObjectiveBriggs
 //
 //  Created by Tayphoon on 21.08.17.
@@ -9,9 +9,9 @@
 #import <UIKit/UIKit.h>
 
 /**
- @abstract `AdaptiveAttribute` represents a trait in a `UITraitCollection`.
+ @abstract `TCAdaptiveAttribute` represents a trait in a `UITraitCollection`.
  */
-@protocol AdaptiveAttribute <NSObject>
+@protocol TCAdaptiveAttribute <NSObject>
 
 /**
  @abstract Creates a `UITraitCollection` corresponding to the trait `self` represents

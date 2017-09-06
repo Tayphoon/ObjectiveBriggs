@@ -1,5 +1,5 @@
 //
-//  AdaptiveElement.h
+//  TCAdaptiveElement.h
 //  ObjectiveBriggs
 //
 //  Created by Tayphoon on 21.08.17.
@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 
 /**
- @abstract An `AdaptiveElement` tracks its own `UITraitCollection` and can react to external `UITraitCollection`s.
+ @abstract An `TCAdaptiveElement` tracks its own `UITraitCollection` and can react to external `UITraitCollection`s.
  
- `AdaptiveElement` represents the receiving child in an inheritence hierarchy of parent-child relationships passing trait  information.
+ `TCAdaptiveElement` represents the receiving child in an inheritence hierarchy of parent-child relationships passing trait  information.
  */
-@protocol AdaptiveElement <NSObject>
+@protocol TCAdaptiveElement <NSObject>
 
 /**
  @abstract Internal `UITraitCollection`
