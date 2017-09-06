@@ -7,19 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73BA52351F607E1C00B4881C /* PKProtocolExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BA52331F607E1C00B4881C /* PKProtocolExtension.h */; };
+		73BA52361F607E1C00B4881C /* PKProtocolExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BA52341F607E1C00B4881C /* PKProtocolExtension.m */; };
+		73BA523B1F60847A00B4881C /* AdaptiveBehavior.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BA52391F60847A00B4881C /* AdaptiveBehavior.h */; };
+		73BA523C1F60847A00B4881C /* AdaptiveBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BA523A1F60847A00B4881C /* AdaptiveBehavior.m */; };
+		73BA52411F60881200B4881C /* AdaptiveConstraintContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BA523F1F60881200B4881C /* AdaptiveConstraintContainer.h */; };
+		73BA52421F60881200B4881C /* AdaptiveConstraintContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BA52401F60881200B4881C /* AdaptiveConstraintContainer.m */; };
+		73BA52451F60894800B4881C /* AdaptiveViewContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BA52431F60894800B4881C /* AdaptiveViewContainer.h */; };
+		73BA52461F60894800B4881C /* AdaptiveViewContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BA52441F60894800B4881C /* AdaptiveViewContainer.m */; };
+		73BA524B1F608BC300B4881C /* AdaptiveAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BA52481F608BC300B4881C /* AdaptiveAttribute.h */; };
+		73BA524C1F608BC300B4881C /* AdaptiveElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BA52491F608BC300B4881C /* AdaptiveElement.h */; };
+		73BA524D1F608BC300B4881C /* AdaptiveInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BA524A1F608BC300B4881C /* AdaptiveInterface.h */; };
+		73BA52511F608C0900B4881C /* UITraitCollection+AdaptiveAttributes.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BA524F1F608C0800B4881C /* UITraitCollection+AdaptiveAttributes.h */; };
+		73BA52521F608C0900B4881C /* UITraitCollection+AdaptiveAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BA52501F608C0800B4881C /* UITraitCollection+AdaptiveAttributes.m */; };
 		73BD501E1F4B2B2E00BB8085 /* ObjectiveBriggs.h in Headers */ = {isa = PBXBuildFile; fileRef = 73BD501C1F4B2B2E00BB8085 /* ObjectiveBriggs.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73C137381F4D5D650077E36E /* AdaptiveAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C137351F4D5D650077E36E /* AdaptiveAttribute.h */; };
-		73C137391F4D5D650077E36E /* AdaptiveElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C137361F4D5D650077E36E /* AdaptiveElement.h */; };
-		73C1373A1F4D5D650077E36E /* AdaptiveInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 73C137371F4D5D650077E36E /* AdaptiveInterface.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		73BA52331F607E1C00B4881C /* PKProtocolExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PKProtocolExtension.h; sourceTree = "<group>"; };
+		73BA52341F607E1C00B4881C /* PKProtocolExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PKProtocolExtension.m; sourceTree = "<group>"; };
+		73BA52391F60847A00B4881C /* AdaptiveBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdaptiveBehavior.h; sourceTree = "<group>"; };
+		73BA523A1F60847A00B4881C /* AdaptiveBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdaptiveBehavior.m; sourceTree = "<group>"; };
+		73BA523F1F60881200B4881C /* AdaptiveConstraintContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdaptiveConstraintContainer.h; sourceTree = "<group>"; };
+		73BA52401F60881200B4881C /* AdaptiveConstraintContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdaptiveConstraintContainer.m; sourceTree = "<group>"; };
+		73BA52431F60894800B4881C /* AdaptiveViewContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdaptiveViewContainer.h; sourceTree = "<group>"; };
+		73BA52441F60894800B4881C /* AdaptiveViewContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdaptiveViewContainer.m; sourceTree = "<group>"; };
+		73BA52481F608BC300B4881C /* AdaptiveAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdaptiveAttribute.h; sourceTree = "<group>"; };
+		73BA52491F608BC300B4881C /* AdaptiveElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdaptiveElement.h; sourceTree = "<group>"; };
+		73BA524A1F608BC300B4881C /* AdaptiveInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdaptiveInterface.h; sourceTree = "<group>"; };
+		73BA524F1F608C0800B4881C /* UITraitCollection+AdaptiveAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITraitCollection+AdaptiveAttributes.h"; sourceTree = "<group>"; };
+		73BA52501F608C0800B4881C /* UITraitCollection+AdaptiveAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITraitCollection+AdaptiveAttributes.m"; sourceTree = "<group>"; };
 		73BD50191F4B2B2E00BB8085 /* ObjectiveBriggs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ObjectiveBriggs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73BD501C1F4B2B2E00BB8085 /* ObjectiveBriggs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjectiveBriggs.h; sourceTree = "<group>"; };
 		73BD501D1F4B2B2E00BB8085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		73C137351F4D5D650077E36E /* AdaptiveAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdaptiveAttribute.h; path = ObjectiveBriggs/Source/AdaptiveProtocols/AdaptiveAttribute.h; sourceTree = "<group>"; };
-		73C137361F4D5D650077E36E /* AdaptiveElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdaptiveElement.h; path = ObjectiveBriggs/Source/AdaptiveProtocols/AdaptiveElement.h; sourceTree = "<group>"; };
-		73C137371F4D5D650077E36E /* AdaptiveInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AdaptiveInterface.h; path = ObjectiveBriggs/Source/AdaptiveProtocols/AdaptiveInterface.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +53,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73BA52381F60845900B4881C /* AdaptiveContainers */ = {
+			isa = PBXGroup;
+			children = (
+				73BA52391F60847A00B4881C /* AdaptiveBehavior.h */,
+				73BA523A1F60847A00B4881C /* AdaptiveBehavior.m */,
+				73BA523F1F60881200B4881C /* AdaptiveConstraintContainer.h */,
+				73BA52401F60881200B4881C /* AdaptiveConstraintContainer.m */,
+				73BA52431F60894800B4881C /* AdaptiveViewContainer.h */,
+				73BA52441F60894800B4881C /* AdaptiveViewContainer.m */,
+			);
+			path = AdaptiveContainers;
+			sourceTree = "<group>";
+		};
+		73BA52471F608B0200B4881C /* AdaptiveAttributes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AdaptiveAttributes;
+			path = Source/AdaptiveAttributes;
+			sourceTree = "<group>";
+		};
+		73BA524E1F608BDB00B4881C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				73BA524F1F608C0800B4881C /* UITraitCollection+AdaptiveAttributes.h */,
+				73BA52501F608C0800B4881C /* UITraitCollection+AdaptiveAttributes.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		73BD500F1F4B2B2E00BB8085 = {
 			isa = PBXGroup;
 			children = (
@@ -52,31 +102,36 @@
 		73BD501B1F4B2B2E00BB8085 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				73BA52471F608B0200B4881C /* AdaptiveAttributes */,
+				73BA52381F60845900B4881C /* AdaptiveContainers */,
 				73BD50D21F4B346E00BB8085 /* AdaptiveProtocols */,
+				73BA524E1F608BDB00B4881C /* Categories */,
 				73BD50241F4B2B7D00BB8085 /* Supporting Files */,
 			);
 			name = Source;
-			path = ObjectiveBriggs;
+			path = ObjectiveBriggs/Source;
 			sourceTree = "<group>";
 		};
 		73BD50241F4B2B7D00BB8085 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				73BA52331F607E1C00B4881C /* PKProtocolExtension.h */,
+				73BA52341F607E1C00B4881C /* PKProtocolExtension.m */,
 				73BD501C1F4B2B2E00BB8085 /* ObjectiveBriggs.h */,
 				73BD501D1F4B2B2E00BB8085 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			path = SupportFiles;
 			sourceTree = "<group>";
 		};
 		73BD50D21F4B346E00BB8085 /* AdaptiveProtocols */ = {
 			isa = PBXGroup;
 			children = (
-				73C137351F4D5D650077E36E /* AdaptiveAttribute.h */,
-				73C137361F4D5D650077E36E /* AdaptiveElement.h */,
-				73C137371F4D5D650077E36E /* AdaptiveInterface.h */,
+				73BA52481F608BC300B4881C /* AdaptiveAttribute.h */,
+				73BA52491F608BC300B4881C /* AdaptiveElement.h */,
+				73BA524A1F608BC300B4881C /* AdaptiveInterface.h */,
 			);
-			name = AdaptiveProtocols;
-			path = ..;
+			path = AdaptiveProtocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,10 +141,15 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73C1373A1F4D5D650077E36E /* AdaptiveInterface.h in Headers */,
+				73BA524D1F608BC300B4881C /* AdaptiveInterface.h in Headers */,
+				73BA52351F607E1C00B4881C /* PKProtocolExtension.h in Headers */,
+				73BA52511F608C0900B4881C /* UITraitCollection+AdaptiveAttributes.h in Headers */,
+				73BA524C1F608BC300B4881C /* AdaptiveElement.h in Headers */,
+				73BA52451F60894800B4881C /* AdaptiveViewContainer.h in Headers */,
+				73BA523B1F60847A00B4881C /* AdaptiveBehavior.h in Headers */,
 				73BD501E1F4B2B2E00BB8085 /* ObjectiveBriggs.h in Headers */,
-				73C137391F4D5D650077E36E /* AdaptiveElement.h in Headers */,
-				73C137381F4D5D650077E36E /* AdaptiveAttribute.h in Headers */,
+				73BA52411F60881200B4881C /* AdaptiveConstraintContainer.h in Headers */,
+				73BA524B1F608BC300B4881C /* AdaptiveAttribute.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +223,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73BA52421F60881200B4881C /* AdaptiveConstraintContainer.m in Sources */,
+				73BA52361F607E1C00B4881C /* PKProtocolExtension.m in Sources */,
+				73BA52521F608C0900B4881C /* UITraitCollection+AdaptiveAttributes.m in Sources */,
+				73BA52461F60894800B4881C /* AdaptiveViewContainer.m in Sources */,
+				73BA523C1F60847A00B4881C /* AdaptiveBehavior.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +342,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ObjectiveBriggs/Info.plist;
+				INFOPLIST_FILE = ObjectiveBriggs/Source/SupportFiles/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -299,7 +364,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ObjectiveBriggs/Info.plist;
+				INFOPLIST_FILE = ObjectiveBriggs/Source/SupportFiles/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

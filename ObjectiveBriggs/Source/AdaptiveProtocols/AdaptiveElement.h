@@ -6,7 +6,7 @@
 //  Copyright © 2017 Tayphoon. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 /**
  @abstract An `AdaptiveElement` tracks its own `UITraitCollection` and can react to external `UITraitCollection`s.

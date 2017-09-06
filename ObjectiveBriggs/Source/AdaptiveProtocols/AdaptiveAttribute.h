@@ -6,7 +6,7 @@
 //  Copyright © 2017 Tayphoon. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 /**
  @abstract `AdaptiveAttribute` represents a trait in a `UITraitCollection`.
